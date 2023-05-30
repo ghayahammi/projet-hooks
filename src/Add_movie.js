@@ -33,6 +33,7 @@ const Add_movie = ({ addhandler }) => {
           seasons,
         };
         
+        
         addhandler(newmovie);
         close();
       };

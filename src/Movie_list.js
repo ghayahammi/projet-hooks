@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Movie_Card from './Movie_card';
-import { moviesData } from './moviesData';
+
  
 
 

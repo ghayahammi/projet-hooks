@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ReactStars from 'react-stars';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
  
 function App({el}){
@@ -9,8 +10,9 @@ function App({el}){
 
         <div className="test">
       
-
-<img src={el.image} alt="Film" />
+      <Link to={`/Details/${el.id}`} > 
+        <img src={el.image} alt="Film" />
+        </Link> 
 <div className="hello">
   
 {
